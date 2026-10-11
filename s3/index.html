@@ -1,0 +1,57 @@
+<!--
+  Original author: Ville Heikkiniemi
+  Modified by: Sami Chaouki
+  Based on the Centria Edu Basics of Web Development course starter.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Ville Heikkiniemi">
+  <meta name="description" content="A small guide to building and exploring websites.">
+  <title>City Notes | A Web Development Project</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="logo" href="index.html">CITY <span>NOTES</span></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="#topics">Topics</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A photo journal · City walks</p>
+        <h1 id="page-title">Small moments,<br><em>open streets.</em></h1>
+        <p class="intro">A city reveals itself one block at a time. Follow the last warm light along a quiet street, then listen to the water moving beneath an old riverside bridge.</p>
+        <a class="button" href="#topics">Explore the notes <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true"><span>01</span><span class="sun"></span><span class="horizon"></span></div>
+    </section>
+
+    <section class="topics" id="topics" aria-labelledby="topics-title">
+      <div class="container">
+        <p class="eyebrow">A few things to notice</p>
+        <h2 id="topics-title">The shape of a city walk</h2>
+        <div class="cards">
+          <article class="card"><span class="card-number">01</span><h3>Golden-hour streets</h3><p>Low sunlight turns familiar buildings and pavement into a scene worth pausing for.</p></article>
+          <article class="card"><span class="card-number">02</span><h3>Old river industry</h3><p>Brick walls and bridges tell stories about the work that once took place beside the water.</p></article>
+          <article class="card"><span class="card-number">03</span><h3>Water in motion</h3><p>Reflections, ripples, and the steady current add a quieter rhythm to the city.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="about">
+    <div class="container footer-row"><p>Original author: Ville Heikkiniemi · Modified by: Sami Chaouki</p><p>City Notes · 2026</p></div>
+  </footer>
+</body>
+</html>
