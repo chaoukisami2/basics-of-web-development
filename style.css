@@ -57,6 +57,8 @@ h2 { margin-bottom: 0; font: 700 clamp(2rem, 4vw, 3rem)/1.1 var(--serif); letter
 .card > p { margin-bottom: 18px; color: var(--muted); font-size: .87rem; }
 .card-link { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: auto; padding-top: 13px; border-top: 1px solid var(--line); color: var(--green); font-size: .8rem; font-weight: 700; text-decoration: none; }
 .card-link:hover { color: var(--ink); }
+.card-link-secondary { margin-top: 0; padding-top: 8px; border-top: 0; color: var(--muted); font-size: .76rem; }
+.card-link-secondary:hover { color: var(--green); }
 .a-section { background: var(--paper); }
 .empty-note { display: flex; align-items: center; gap: 13px; padding: 19px; border: 1px dashed #cbd5cb; border-radius: 6px; color: var(--muted); }
 .empty-note p { margin: 0; font-size: .88rem; }
