@@ -1,0 +1,3 @@
+Layout justification
+
+The home page uses a two-column introduction so the title and short explanation sit beside a simple visual. The gallery uses three cards in a row on wide screens, giving each photograph equal space and keeping its caption close to the image. On narrow screens, the home page stacks its text and visual, and the gallery cards become one column. The images shrink to the available width, so visitors can scroll vertically without horizontal scrolling.
